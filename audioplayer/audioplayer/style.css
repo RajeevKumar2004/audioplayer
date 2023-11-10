@@ -1,0 +1,68 @@
+/* Styling the center container */
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+/* Styling the logo container */
+#logo-container {
+    background-color: #ffffff; /* Background color for the container (white) */
+    border-radius: 10px; /* Adds slight round edges */
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+/* Styling the logo image */
+.logo-image {
+    width: 500px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    border-radius: 10px; /* Creates slightly rounded edges */
+}
+
+
+/* Styling the buttons */
+.button {
+    background-color: #1C90E4; /* Light blue background for buttons */
+    color: #ffffff; /* White text color for buttons */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0; /* No border radius (buttons are not rounded) */
+    text-align: center; /* Center-align button text */
+    margin: 5px; /* Add margin for spacing */
+}
+
+/* Styling the "Songs" dropdown button */
+#songs-button {
+    background-color: #B3E0FF; /* Very light blue background color */
+    color: #000000; /* Black text color for the button */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Adds some border radius to make it slightly rounded */
+    margin: 5px; /* Add margin for spacing */
+    text-align: center; /* Center-align the button text */
+}
+
+/* Dropdown content styles */
+.dropdown-content {
+    display: none;
+    background-color: #ffffff; /* White background for the dropdown content */
+    position: absolute;
+    z-index: 1;
+    border: 1px solid #1C90E4; /* Light blue border for the dropdown content */
+    text-align: center;
+}
+
+.dropdown-content button {
+    background-color: #1C90E4; /* Light blue background for the buttons in the dropdown */
+    color: #ffffff; /* White text color for the buttons in the dropdown */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center; /* Center-align button text in the dropdown */
+    margin: 5px; /* Add margin for spacing in the dropdown */
+}
+
